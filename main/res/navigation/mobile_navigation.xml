@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appforbus.ui.home.HomeFragment"
+        android:label="Продажа билетов"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.appforbus.ui.gallery.GalleryFragment"
+        android:label="Список администраторов"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+        android:label="Автобусы"
+        tools:layout="@layout/fragment4" />
+
+    <fragment
+        android:id="@+id/nav4"
+        android:label="Статистика"
+        tools:layout="@layout/fragment4"
+     />
+    <fragment
+        android:id="@+id/nav5"
+        android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+        android:label="Пассажиры"
+        tools:layout="@layout/fragment5" />
+    <fragment
+        android:id="@+id/nav6"
+        android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+        android:label="Статистика"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav7"
+        android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+        android:label="Расписание"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav8"
+        android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+        android:label="История"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+    android:id="@+id/nav9"
+    android:name="com.example.appforbus.ui.slideshow.SlideshowFragment"
+    android:label="Настройка"
+    tools:layout="@layout/fragment_slideshow" />
+
+</navigation>
